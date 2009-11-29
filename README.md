@@ -15,7 +15,6 @@ Place the javascript/css files in any directory you desire and reference them in
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="news_ticker.js"></script>
 
-
 HTML markup
 -----------
 The plugin requires a container with an id and either an ordered or unordered list. Be sure to maintain class names:
