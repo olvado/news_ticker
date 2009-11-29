@@ -11,11 +11,11 @@ Installation
 ------------
 Place the javascript/css files in any directory you desire and reference them in the head of your page. Make sure that you reference jQuery before news_ticker.js
 
-<pre><code>
+<pre>
 <link rel="stylesheet" type="text/css" href="news_ticker.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript" src="news_ticker.js"></script>
-</code></pre>
+</pre>
 
 HTML markup
 -----------
