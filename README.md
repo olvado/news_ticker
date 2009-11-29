@@ -11,36 +11,32 @@ Installation
 ------------
 Place the javascript/css files in any directory you desire and reference them in the head of your page. Make sure that you reference jQuery before news_ticker.js
 
-<pre><code>
-<link rel="stylesheet" type="text/css" href="news_ticker.css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript" src="news_ticker.js"></script>
-</code></pre>
+    <link rel="stylesheet" type="text/css" href="news_ticker.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="news_ticker.js"></script>
+
 
 HTML markup
 -----------
 The plugin requires a container with an id and either an ordered or unordered list. Be sure to maintain class names:
 
-<pre><code>
-<div id="myContainerId">
-  <ol class="ticker-list">
-    <li class="item"><a href="#">Here's the first news headline</a></li>
-    <li class="item"><a href="#">A second news item comes next</a></li>
-    <li class="item"><a href="#">Let's create a third to fill the list</a></li>
-    <li class="item"><a href="#">And we'll finish off with a fourth news headline</a></li>
-  </ol>
-</div>
-</code></pre>
+    <div id="myContainerId">
+      <ol class="ticker-list">
+        <li class="item"><a href="#">Here's the first news headline</a></li>
+        <li class="item"><a href="#">A second news item comes next</a></li>
+        <li class="item"><a href="#">Let's create a third to fill the list</a></li>
+        <li class="item"><a href="#">And we'll finish off with a fourth news headline</a></li>
+      </ol>
+    </div>
+
 
 Plugin instantiation
 --------------------
-<pre><code>
-  <script type="text/javascript">
-    jQuery(function($){
-      $('#myContainerId').newsTicker();
-    });
-  </script>
-</code></pre>
+    <script type="text/javascript">
+      jQuery(function($){
+        $('#myContainerId').newsTicker();
+      });
+    </script>
 
 Parameters
 ----------
@@ -51,9 +47,7 @@ The following options can be set:
 
 These are set as follows:
 
-<pre><code>
-  $('#myContainerId').newsTicker({speed:500,delay:4000});
-</code></pre>
+    $('#myContainerId').newsTicker({speed:500,delay:4000});
 
 License
 --------
