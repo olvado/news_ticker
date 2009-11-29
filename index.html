@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Simple jQuery news ticker plugin</title>
+  <link rel="stylesheet" type="text/css" href="news_ticker.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" src="news_ticker.js"></script>
+  <script type="text/javascript">
+    jQuery(function($){
+      $('#newsTicker').newsTicker({speed:1500,delay:4000});
+    });
+  </script>
+</head>
+<body>
+
+  <div id="newsTicker">
+    <ol class="ticker-list">
+      <li class="item"><a href="#">Here's the first news headline</a></li>
+      <li class="item"><a href="#">A second news item comes next</a></li>
+      <li class="item"><a href="#">Let's create a third to fill the list</a></li>
+      <li class="item"><a href="#">And we'll finish off with a fourth news headline</a></li>
+    </ol>
+  </div>
+
+</body>
+</html>
