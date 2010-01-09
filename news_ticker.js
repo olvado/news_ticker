@@ -7,8 +7,8 @@
     }, settings);
     return this.each(function(){
       var ticker  = $(this),
-          list    = ticker.find('.ticker-list'),
-          item    = list.find('.item'),
+          list    = $('.ticker-list',this),
+          item    = $('.item',this),
           i = 0,
           c = item.size();
       ticker.addClass('render');
